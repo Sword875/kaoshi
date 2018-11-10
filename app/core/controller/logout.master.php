@@ -19,7 +19,7 @@ class action extends app
 	private function index()
 	{
 		$this->session->clearSessionUser();
-		header("location:index.php?core-master-login");
+		header("location:index.php?user-app-login");
 	}
 }
 

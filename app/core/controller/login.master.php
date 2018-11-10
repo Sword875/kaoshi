@@ -38,7 +38,7 @@ class action extends app
 								'statusCode' => 300,
 								"message" => "您无权进入后台",
 							    "callbackType" => 'forward',
-							    "forwardUrl" => "index.php?core-master-login"
+							    "forwardUrl" => "index.php?user-app-login"
 							)));
 						}
 						else

@@ -25,11 +25,11 @@ class app
 				'statusCode' => 300,
 				"message" => "请您重新登录",
 			    "callbackType" => 'forward',
-			    "forwardUrl" => "index.php?core-master-login"
+			    "forwardUrl" => "index.php?user-app-login"
 			)));
 			else
 			{
-				header("location:index.php?core-master-login");
+				header("location:index.php?user-app-login");
 				exit;
 			}
 		}
